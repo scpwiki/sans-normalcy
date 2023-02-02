@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eta" format="2">
+  <advance width="527"/>
+  <unicode hex="0397"/>
+  <outline>
+    <contour>
+      <point x="350" y="579" type="line"/>
+      <point x="503" y="579" type="line"/>
+      <point x="503" y="-74" type="line"/>
+      <point x="350" y="-74" type="line"/>
+      <point x="350" y="170" type="line"/>
+      <point x="175" y="170" type="line"/>
+      <point x="175" y="-75" type="line"/>
+      <point x="22" y="-75" type="line"/>
+      <point x="22" y="579" type="line"/>
+      <point x="175" y="579" type="line"/>
+      <point x="175" y="323" type="line"/>
+      <point x="350" y="323" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-75</integer>
+            <key>width</key>
+            <integer>22</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>170</integer>
+            <key>width</key>
+            <integer>153</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>559</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>22</integer>
+            <key>width</key>
+            <integer>153</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>350</integer>
+            <key>width</key>
+            <integer>153</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

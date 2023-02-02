@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilon" format="2">
+  <advance width="619"/>
+  <unicode hex="03A5"/>
+  <outline>
+    <contour>
+      <point x="186" y="579" type="line"/>
+      <point x="309" y="373" type="line"/>
+      <point x="432" y="579" type="line"/>
+      <point x="600" y="579" type="line"/>
+      <point x="386" y="243" type="line"/>
+      <point x="386" y="-75" type="line"/>
+      <point x="232" y="-75" type="line"/>
+      <point x="232" y="243" type="line"/>
+      <point x="18" y="579" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-75</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>559</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>232</integer>
+            <key>width</key>
+            <integer>154</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

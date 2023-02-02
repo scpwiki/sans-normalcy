@@ -1,0 +1,53 @@
+
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\D \p \zero \one \two \three \four \five \six \seven \eight \nine \A \B \C 
+	\E \F \G \H \I \J \K \L \M \W \X \Y \Z \V \U \T \S \R \Q \P \O \N \a \b \c \d \e \f \g \h \i \j \k \l \m \n 
+	\o \q \r \s \t \u \v \w \x \y \z \space \colon \semicolon \equal \grave \quotedbl 
+	\quotesingle \plus \comma \hyphen \period \slash \backslash \underscore \exclam 
+	\notequal \numbersign \dollar \percent \less \greater \at \exclamdown 
+	\questiondown \question \asciicircum \acircumflex \Acircumflex \Ecircumflex 
+	\ecircumflex \Icircumflex \Ocircumflex \Ucircumflex \oacute \icircumflex 
+	\ucircumflex \asciitilde \Agrave \Aacute \Atilde \Adieresis \Aring \agrave 
+	\aacute \atilde \adieresis \aring \uni018F \asterisk \Egrave \Eacute \Edieresis 
+	\egrave \eacute \edieresis \bracketleft \bracketright \parenleft \parenright 
+	\braceleft \braceright \bar \ocircumflex \otilde \odieresis \ograve \Ntilde 
+	\ntilde \ampersand \Igrave \Iacute \Idieresis \Ograve \Oacute \Otilde \Odieresis 
+	\Ugrave \Uacute \Udieresis \igrave \iacute \idieresis \ugrave \uacute \udieresis 
+	\yacute \Yacute \ccedilla \Ccedilla \guillemotleft \guillemotright \Eth \Dcroat 
+	\Abreve \abreve \uni1EA0 \uni1EA1 \uni1EA2 \uni1EA3 \uni1EA4 \uni1EA5 \uni1EA6 
+	\uni1EA8 \uni1EA7 \uni1EA9 \uni1EAA \uni1EAB \uni1EAC \uni1EAD \uni1EAE \uni1EAF 
+	\uni1EB0 \uni1EB1 \uni1EB2 \uni1EB3 \uni1EB4 \uni1EB5 \uni1EB6 \uni1EB7 \uni1EB8 
+	\uni1EB9 \uni1EBA \uni1EBB \uni1EBC \uni1EBD \uni1EBE \uni1EBF \uni1EC1 \uni1EC0 
+	\uni1EC2 \uni1EC3 \uni1EC4 \uni1EC5 \uni1EC6 \uni1EC7 \uni1EC8 \uni1EC9 \uni1ECA 
+	\uni1ECB \dcroat \ydieresis \degree \macron \Amacron \amacron \Itilde \itilde 
+	\Ygrave \ygrave \uni1EF4 \uni1EF5 \uni1EF6 \uni1EF7 \uni1EF8 \uni1EF9 \uni1ECC 
+	\uni1ECD \uni1ECE \uni1ED0 \uni1ECF \uni1ED1 \uni1ED2 \uni1ED3 \Uhorn \uhorn \eth 
+	\uni1EE8 \uni1EE9 \uni1EEB \uni1EEA \uni1EEC \uni1EED \uni1EEE \uni1EEF \uni1EF0 
+	\uni1EF1 \uni1EE4 \uni1EE5 \uni1EE6 \uni1EE7 \Ohorn \ohorn \uni1EE2 \uni1EE3 
+	\uni1ED4 \uni1ED5 \uni1EE0 \uni1EE1 \uni1ED6 \uni1ED7 \uni1ED8 \uni1ED9 \uni1EDA 
+	\uni1EDB \uni1EDC \uni1EDD \uni1EDE \uni1EDF \uni0400 \uni0401 \uni0410 \uni0412 
+	\uni0405 \uni0406 \uni0407 \uni0408 \uni0415 \uni041C \uni041D \uni041E \uni0420 
+	\uni0421 \uni0422 \uni0425 \uni0435 \uni0430 \uni0402 \uni0452 \uni0416 \uni0436 
+	\uni0453 \uni0403 \uni042F \uni044F \uni0456 \uni0457 \uni0458 \uni0455 \uni0427 
+	\uni0447 \AE \ae \germandbls \uni0431 \uni0411 \uni0450 \uni0451 \uni042E 
+	\uni044E \uni0445 \uni043E \uni043C \uni0440 \uni0441 \uni0442 \uni043D \uni0432 
+	\uni041B \uni043B \uni041F \uni043F \uni0443 \uni0423 \uni0424 \uni0444 \uni0426 
+	\uni0446 \uni0417 \uni0437 \uni0404 \uni0454 \uni042D \uni044D \uni0413 \uni0433 
+	\uni0414 \uni0434 \uni041A \uni043A \uni0418 \uni0438 \uni0419 \uni0439 \uni042C 
+	\uni044C \uni0428 \uni0448 \uni0429 \uni0449 \uni0490 \uni0491 \uni044A \uni042A 
+	\uni042B \uni044B \Aogonek \aogonek \Cacute \cacute \Eogonek \eogonek \Lslash 
+	\lslash \Nacute \nacute \Sacute \sacute \Zacute \zacute \Zdotaccent \zdotaccent 
+	\OE \oe \Ccaron \ccaron \Dcaron \dcaron \Ecaron \ecaron \Ncaron \ncaron \Rcaron 
+	\rcaron \Scaron \scaron \Uring \uring \Zcaron \zcaron \ordmasculine \ordfeminine 
+	\uni1E9E \Tcaron \tcaron \AEacute \aeacute \uni01E2 \uni01E3 \Alpha \Beta 
+	\Epsilon \Eta \Iota \Mu \Nu \Omicron \Rho \Tau \Upsilon \Phi \Chi \Gamma \Kappa \Zeta 
+	\uni0394 \Lambda \kappa \omicron \phi \Psi \psi \Sigma \Pi \pi \Theta \theta \Xi 
+	\uni03A9 \lambda \uni03BC \mu \gamma \iota \chi \epsilon \tau \omega \upsilon \rho 
+	\delta \sigma \sigma1 \xi \nu \eta \alpha \beta \zeta ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
